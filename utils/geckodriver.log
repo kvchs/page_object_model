@@ -1,0 +1,10 @@
+1521294444788	geckodriver	INFO	Listening on 127.0.0.1:54198
+1521294447920	geckodriver::marionette	INFO	Starting browser \\?\F:\Firefox\firefox.exe with args ["-marionette"]
+1521294450356	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < AddonManagerInternal.validateBlocklist()@resource://gre/modules/AddonManager.jsm:700 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:870 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1677: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1521294451665	Marionette	INFO	Listening on port 54208
+1521294452956	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2585: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: https://account.xiaomi.com/pass/userInfoJsonP?userId=0&callback=setLoginInfo_getAccountInfo, line 3: SyntaxError: expected expression, got '<'
+1521294463603	Marionette	INFO	New connections will no longer be accepted
+1521294940097	geckodriver	INFO	Listening on 127.0.0.1:54337

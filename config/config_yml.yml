@@ -1,0 +1,10 @@
+#this is .yml config file
+URL: https://www.mi.com/
+log:
+    file_name: test.log
+    backup: 5
+    console_level: WARNING
+    file_level: DEBUG
+    pattern: '%(asctime)s - %(name)s - %(levelnames)s - %(messages)s'
+ip: 127.0.0.1
+port: 8080
