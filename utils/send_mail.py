@@ -81,10 +81,10 @@ if __name__ == '__main__':
     report = REPORT_PATH + '\\report.html'
     e = Email(title='百度搜素测试报告',
               message='这是今天的测试报告，请查收！',
-              receiver='149337751@qq.com',
+              receiver='1451@qq.com',
               server='smtp.163.com',
-              sender='15688048872@163.com',
-              password='ma2222de',
+              sender='1572@163.com',
+              password='m',
               path=report
               )
     e.send()
