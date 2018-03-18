@@ -52,7 +52,7 @@ class Browser(object):
 
 
 if __name__ == '__main__':
-    b = Browser('firefox').get('http://www.mi.com')
+    b = Browser('chrome').get('http://www.mi.com')
     b.save_screen_shot('xiaomi')
     time.sleep(3)
     b.quit()
