@@ -1,5 +1,5 @@
 #this is .yml config file
-URL: https://www.mi.com/
+URL: https://www.jd.com/
 log:
     file_name: test.log
     backup: 5
